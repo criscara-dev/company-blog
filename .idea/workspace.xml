@@ -1,9 +1,172 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a757ca95-2156-4cf8-8651-d51cde118d4d" name="Default Changelist" comment="completed user forms and views">
-      <change afterPath="$PROJECT_DIR$/webBlog/templates/user_blog_posts.html" afterDir="false" />
+    <list default="true" id="a757ca95-2156-4cf8-8651-d51cde118d4d" name="Default Changelist" comment="added user_blog_posts template">
+      <change afterPath="$PROJECT_DIR$/migrations/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/alembic.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/env.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/script.py.mako" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/versions/a459c7a7b822_first_migration.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/_asyncbackend.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/_asyncio_backend.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/_curio_backend.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/_immutable_attr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/_immutable_ctx.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/_trio_backend.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/asyncbackend.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/asyncquery.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/asyncresolver.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/dnssec.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/e164.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/edns.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/entropy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/enum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/exception.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/flags.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/grange.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/immutable.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/inet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/ipv4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/ipv6.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/message.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/name.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/namedict.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/node.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/opcode.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/py.typed" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/query.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/rcode.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/rdata.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/rdataclass.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/rdataset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/rdatatype.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/rdtypes/ANY/AFSDB.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/rdtypes/ANY/AMTRELAY.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/rdtypes/ANY/AVC.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/rdtypes/ANY/CAA.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/rdtypes/ANY/CDNSKEY.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/rdtypes/ANY/CDS.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/rdtypes/ANY/CERT.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/rdtypes/ANY/CNAME.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/rdtypes/ANY/CSYNC.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/rdtypes/ANY/DLV.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/rdtypes/ANY/DNAME.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/rdtypes/ANY/DNSKEY.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/rdtypes/ANY/DS.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/rdtypes/ANY/EUI48.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/rdtypes/ANY/EUI64.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/rdtypes/ANY/GPOS.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/rdtypes/ANY/HINFO.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/rdtypes/ANY/HIP.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/rdtypes/ANY/ISDN.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/rdtypes/ANY/LOC.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/rdtypes/ANY/MX.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/rdtypes/ANY/NINFO.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/rdtypes/ANY/NS.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/rdtypes/ANY/NSEC.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/rdtypes/ANY/NSEC3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/rdtypes/ANY/NSEC3PARAM.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/rdtypes/ANY/OPENPGPKEY.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/rdtypes/ANY/OPT.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/rdtypes/ANY/PTR.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/rdtypes/ANY/RP.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/rdtypes/ANY/RRSIG.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/rdtypes/ANY/RT.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/rdtypes/ANY/SMIMEA.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/rdtypes/ANY/SOA.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/rdtypes/ANY/SPF.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/rdtypes/ANY/SSHFP.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/rdtypes/ANY/TKEY.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/rdtypes/ANY/TLSA.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/rdtypes/ANY/TSIG.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/rdtypes/ANY/TXT.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/rdtypes/ANY/URI.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/rdtypes/ANY/X25.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/rdtypes/ANY/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/rdtypes/CH/A.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/rdtypes/CH/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/rdtypes/IN/A.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/rdtypes/IN/AAAA.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/rdtypes/IN/APL.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/rdtypes/IN/DHCID.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/rdtypes/IN/HTTPS.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/rdtypes/IN/IPSECKEY.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/rdtypes/IN/KX.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/rdtypes/IN/NAPTR.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/rdtypes/IN/NSAP.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/rdtypes/IN/NSAP_PTR.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/rdtypes/IN/PX.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/rdtypes/IN/SRV.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/rdtypes/IN/SVCB.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/rdtypes/IN/WKS.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/rdtypes/IN/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/rdtypes/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/rdtypes/dnskeybase.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/rdtypes/dsbase.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/rdtypes/euibase.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/rdtypes/mxbase.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/rdtypes/nsbase.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/rdtypes/svcbbase.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/rdtypes/tlsabase.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/rdtypes/txtbase.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/rdtypes/util.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/renderer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/resolver.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/reversename.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/rrset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/serial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/set.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/tokenizer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/transaction.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/tsig.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/tsigkeyring.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/ttl.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/update.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/version.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/versioned.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/wire.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/xfr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/zone.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dns/zonefile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dnspython-2.1.0.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dnspython-2.1.0.dist-info/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dnspython-2.1.0.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dnspython-2.1.0.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dnspython-2.1.0.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/dnspython-2.1.0.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/email_validator-1.1.3.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/email_validator-1.1.3.dist-info/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/email_validator-1.1.3.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/email_validator-1.1.3.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/email_validator-1.1.3.dist-info/REQUESTED" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/email_validator-1.1.3.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/email_validator-1.1.3.dist-info/entry_points.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/email_validator-1.1.3.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/email_validator/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/idna-3.2.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/idna-3.2.dist-info/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/idna-3.2.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/idna-3.2.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/idna-3.2.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/idna-3.2.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/idna/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/idna/codec.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/idna/compat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/idna/core.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/idna/idnadata.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/idna/intranges.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/idna/package_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/idna/py.typed" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/idna/uts46data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webBlog/data.sqlite" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webBlog/static/profile_pics/default_profile.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webBlog/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/webBlog/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webBlog/templates/account.html" beforeDir="false" afterPath="$PROJECT_DIR$/webBlog/templates/account.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webBlog/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/webBlog/templates/base.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +203,11 @@
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/webBlog/static/profile_pics" />
+    </key>
   </component>
   <component name="RunManager" selected="Python.app">
     <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -101,7 +269,8 @@
       <option name="presentableId" value="Default" />
       <updated>1624713839713</updated>
       <workItem from="1624713849903" duration="30000" />
-      <workItem from="1624713892921" duration="14317000" />
+      <workItem from="1624713892921" duration="19708000" />
+      <workItem from="1624819965519" duration="1827000" />
     </task>
     <task id="LOCAL-00001" summary="completed user forms and views">
       <created>1624805084605</created>
@@ -110,7 +279,21 @@
       <option name="project" value="LOCAL" />
       <updated>1624805084607</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added user_blog_posts template">
+      <created>1624808429369</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1624808429369</updated>
+    </task>
+    <task id="LOCAL-00003" summary="added user_blog_posts template">
+      <created>1624809266618</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1624809266618</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,30 +309,16 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="completed user forms and views" />
-    <option name="LAST_COMMIT_MESSAGE" value="completed user forms and views" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>8</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/webBlog/models.py</url>
-          <line>1</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="added user_blog_posts template" />
+    <option name="LAST_COMMIT_MESSAGE" value="added user_blog_posts template" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/company_blog$main.coverage" NAME="main Coverage Results" MODIFIED="1624714087794" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/company_blog$app.coverage" NAME="app Coverage Results" MODIFIED="1624717879202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/company_blog$app.coverage" NAME="app Coverage Results" MODIFIED="1624819974630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

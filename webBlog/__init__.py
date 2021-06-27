@@ -1,17 +1,11 @@
+import os
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate
 from flask_login import LoginManager
-import os
-from webBlog.core.views import core
-from webBlog.error_pages.handlers import error_pages
-from webBlog.users.views import users
 
 app = Flask(__name__)
-app.register_blueprint(core)
-app.register_blueprint(error_pages)
-app.register_blueprint(users)
-
+app.config['SECRET_KEY'] = 'mysecret'
 
 ##########################
 ##### DATABASE SETUP #####
@@ -32,3 +26,13 @@ login_manager = LoginManager()
 
 login_manager.init_app(app)
 login_manager.login_view = 'users.login'
+
+##########################
+
+from webBlog.core.views import core
+from webBlog.users.views import users
+from webBlog.error_pages.handlers import error_pages
+
+app.register_blueprint(core)
+app.register_blueprint(users)
+app.register_blueprint(error_pages)
